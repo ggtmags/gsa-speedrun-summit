@@ -1,0 +1,103 @@
+.player_info_box_2p_4x3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    width: 300px;
+    height: 764px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 20px;
+}
+.com_info_box_2p_4x3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width: 483px;
+    height: 764px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    flex-direction: column;
+}
+
+.com_name_holder_1p_16x9{
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-right:10px;
+}
+
+.com_info_box_2p_4x3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    width: 972px;
+    height: 147px;
+    position: absolute;
+    top: 110px;
+    left: 453px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    flex-direction: row;
+}
+.team1box{
+    position: absolute;
+    left: 20px;
+    top: 218px;
+}
+
+.team2box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width: 267px;
+    height: 37px;
+    position: absolute;
+    top: 219px;
+    left: 1622px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    flex-direction: column;
+}
+.player_video_box{
+    position: absolute;
+    width: 673px;
+    height: 50px;
+    top: 290px;
+    display: flex;
+    justify-content: center;
+}
+.player_time_box{
+    
+    
+    width:150px;
+    height:30px;
+}
+.upper_time_box{
+    left:100px;
+}
+.team2finish{
+    left:1246px;
+}
+.player_timer{
+    font-size:26px;
+    text-align: center;
+}
+.lower_third{
+    color: #ffffff;
+    font-size: 60px;
+    position: absolute;
+    left: 553px;
+    width: 816px;
+    top: 80px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}

@@ -1,0 +1,114 @@
+{
+    "name": "gsa-speedrun-summit",
+    "version": "1.0.0",
+    "description": "gotta go fast!",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  
+    "author": "Trevor Magnani / GenGAME",
+    "license": "MIT",
+  
+    "nodecg": {
+      "compatibleRange": ">=0.9",
+      "dashboardPanels": [
+        {
+          "name": "Commercial Timer",
+          "title": "Commercial Timer",
+          "width": 3,
+          "file": "com_timer2.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "Live"
+        },
+        {
+          "name": "Commentary",
+          "title": "Commentary",
+          "width": 6,
+          "file": "srs-commentary.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "Live"
+        },
+        {
+          "name": "Schedule",
+          "title": "Schedule",
+          "width": 6,
+          "file": "schedule.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "Live"
+        },
+        {
+          "name": "Scoring",
+          "title": "Scoreboard",
+          "width": 4,
+          "file": "mmscore.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "Live"
+        },
+        {
+          "name": "Feud Main",
+          "title": "Feud Main",
+          "width": 6,
+          "file": "feud_1.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "Live"
+        },
+        {
+          "name": "Fast Money",
+          "title": "Fast Money",
+          "width": 6,
+          "file": "feud_2.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "Live"
+        }
+      ],
+      "graphics": [
+        {
+          "file": "omnibar.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "omnibar-small.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "1_player_16x9.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "1_player_4x3.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "2_player_4x3.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "2_player_4x3_bingo.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "4_player_16x9.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "family_feud.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "fastmoney.html",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    }
+  }
+  

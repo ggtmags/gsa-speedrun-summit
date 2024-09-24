@@ -1,0 +1,26 @@
+First Priority:
+
+Dashbaord Elements
+    TimerH          Speedcontrol?
+    TimerMin        Speedcontrol?
+    TimerSec        Speedcontrol?
+
+    LiveGame        (dropdown?)
+    RunEstimate     text
+    RunCategory     text
+
+    NextGame        (dropdown)
+    Runner 1        Text
+    Runner 2        Text
+    Runner 3        Text
+    Runner 4        Text
+
+    Com1            text
+    Com2            text
+    Com3            Text
+    Com4            Text
+
+
+Schedule
+    ShowSegment     (selector 1-4)
+    

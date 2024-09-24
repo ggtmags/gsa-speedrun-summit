@@ -1,0 +1,237 @@
+body{
+    font-family: BebasNeue;
+}
+.feud-bg{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:1920px;
+    height:1080px;
+    background:url(../img/feud/FF_BG\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fm-bg{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:1920px;
+    height:1080px;
+    background:url(../img/feud/FF_BG\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fm-fg{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:1920px;
+    height:1080px;
+    background:url(../img/feud/FF_BOARD\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.answer-bg{
+    background:url(../img/feud/FF_FINALS\ BOARD.png);
+    width:851px;
+    height:494px;
+    position: absolute;
+    left:532px;
+    top:356px;
+}
+.answer-hidden{
+    position: absolute;
+    width:379px;
+    height:96px;
+    background-repeat:no-repeat;
+    background:url(../img/feud/FF_A0.png);
+    background-size: cover;
+}
+.pos1{
+    left:42px;
+    top:42px;
+}
+.pos2{
+    left:42px;
+    top:146px;
+}
+.pos3{
+    left:42px;
+    top:249px;
+}
+.pos4{
+    left:42px;
+    top:354px;
+}
+.pos5{
+    left:430px;
+    top:42px;
+}
+.pos6{
+    left:430px;
+    top:146px;
+}
+.pos7{
+    left:430px;
+    top:249px;
+}
+.pos8{
+    left: 430px;
+    top: 354px;
+}
+.active1{
+    background:url(../img/feud/FF_A1.png);
+    background-repeat:no-repeat;
+}
+.active2{
+    background:url(../img/feud/FF_A2.png);
+    background-repeat:no-repeat;
+}
+.active3{
+    background:url(../img/feud/FF_A3.png);
+    background-repeat:no-repeat;
+}
+.active4{
+    background:url(../img/feud/FF_A4.png);
+    background-repeat:no-repeat;
+}
+.active5{
+    background:url(../img/feud/FF_A5.png);
+    background-repeat:no-repeat;
+}
+.active6{
+    background:url(../img/feud/FF_A6.png);
+    background-repeat:no-repeat;
+}
+.active7{
+    background:url(../img/feud/FF_A7.png);
+    background-repeat:no-repeat;
+}
+.active8{
+    background:url(../img/feud/FF_A8.png);
+    background-repeat:no-repeat;
+}
+.score-box{
+    position: absolute;
+    color: #ffffff;
+    top: 199px;
+    left: 832px;
+    width: 250px;
+    height: 138px;
+    line-height: 138px;
+    text-align: center;
+    font-size: 117px;
+}
+.answer-shown{
+    background:url(../img/feud/FF_REVEAL\ N\ POINT.png);
+    background-repeat:no-repeat;
+    position: absolute;
+    width:379px;
+    height:96px;
+    background-size: cover;
+}
+.answer{
+    font-size: 36px;
+    color: #ffffff;
+    background: transparent;
+    line-height: 96px;
+    text-align: center;
+    width: 288px;
+    position: absolute;
+}
+.points{
+    font-size: 60px;
+    color: #ffffff;
+    background: transparent;
+    line-height: 96px;
+    text-align: center;
+    width: 76px;
+    position: absolute;
+    left: 296px;
+}
+
+.fm-answer-box{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.ans{
+    width:300px;
+}
+.pts{
+    position: absolute;
+    left: 323px;
+    top: 0px;
+    width: 50px;
+    text-align: center;
+}
+
+.fm-a1{
+    left: 580px;
+    top: 368px;
+}
+.fm-a2{
+    left: 580px;
+    top: 425px;
+}
+.fm-a3{
+    left: 580px;
+    top: 481px;
+}
+.fm-a4{
+    left: 580px;
+    top: 538px;
+}
+.fm-a5{
+    left: 580px;
+    top: 597px;
+}
+
+.fm-b1{
+    left: 966px;
+    top: 368px;
+}
+.fm-b2{
+    left: 966px;
+    top: 425px;
+}
+.fm-b3{
+    left: 966px;
+    top: 481px;
+}
+.fm-b4{
+    left: 966px;
+    top: 538px;
+}
+.fm-b5{
+    left: 966px;
+    top: 597px;
+}
+
+.fm-totalbox{
+    position: absolute;
+    left: 1102px;
+    top: 671px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    padding-left:10px;
+    color: #ffffff;
+}
+.fm-totalnumber{
+    position: absolute;
+    left: 1102px;
+    top: 671px;
+    width: 228px;
+    height: 50px;
+    text-align: right;
+    line-height: 50px;
+    font-size: 30px;
+    padding-right: 10px;
+    color: #ffffff;
+}

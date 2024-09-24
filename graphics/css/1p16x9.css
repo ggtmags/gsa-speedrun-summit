@@ -1,0 +1,47 @@
+
+.player_info_box_1p_16x9{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    width: 300px;
+    height: 764px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 20px;
+}
+.com_info_box_1p_16x9{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width: 483px;
+    height: 764px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    flex-direction: column;
+}
+.com_info_box_1p_4x3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width: 831px;
+    height: 764px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    flex-direction: column;
+}
+.com_name_holder_1p_16x9{
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+   
+}

@@ -1,0 +1,230 @@
+@font-face {
+    font-family: D-DIN-Bold;
+    src:url("../fonts/D-DIN-Bold.otf");
+}
+@font-face {
+    font-family: D-DIN;
+    src:url("../fonts/D-DIN.otf");
+}
+@font-face {
+    font-family: DIN-Mono;
+    src:url("../fonts/DIN-Mono-Bold.ttf");
+}
+@font-face {
+    font-family: BebasNeue;
+    src:url("../fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family: tetris;
+    src:url("../fonts/tmg-2.ttf");
+}
+.visible{
+    display:block;
+}
+.hidden{
+    display:none;
+}
+
+body{
+    font-family: tetris;
+}
+
+.sc_1p_16x9{
+    background:url(../img/mortise/16-9-1P.png);
+}
+.sc_1p_4x3{
+    background:url(../img/mortise/4-3-1P.png);
+}
+.sc_2p_4x3{
+    background:url(../img/mortise/4-3-2P.png);
+}
+.sc_2p_4x3_bingo{
+    background:url(../img/mortise/4-3-2P-Bingo.png);
+}
+.sc_4p_16x9{
+    background:url(../img/mortise/16-9-4P.png);
+}
+
+
+.sc_body{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:1920px;
+    height:1080px;
+}
+.pnh{
+    font-size: 24px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, .75);
+    border-radius: 10px;
+    padding: 6px;
+}
+.pnhr{
+    font-size: 24px;
+    color: #ffffff;
+    background: rgba(200, 0, 0, .65);
+    border-radius: 10px;
+    padding: 6px;
+}
+.pnhb{
+    font-size: 24px;
+    color: #ffffff;
+    background: rgba(0, 0, 200, .65);
+    border-radius: 10px;
+    padding: 6px;
+}
+.upper_time_box{
+    background-image: url(../img/checkered_flag.gif);
+    background-position: center;
+    background-size:150%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.lower_time_box{
+    background-image: url(../img/checkered_flag.gif);
+    background-position: center;
+    background-size:150%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.flag1p16x9{
+    width: 524px;
+    height: 46px;
+    color: #ffffff;
+    /* text-shadow: 2px 2px 2px #0367aa; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.flag1p4x3{
+    width: 872px;
+    height: 46px;
+    color: #ffffff;
+    /* text-shadow: 2px 2px 2px #0367aa; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.mic {
+    background-image: url(../img/icons/coms_dark.png);
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 34px;
+    top: 2px;
+    background-size: contain;
+    position: relative;
+    float: right;
+}
+.gamepad {
+    background-image: url(../img/icons/player_dark.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 34px;
+    top: 2px;
+    left: 10px;
+    background-size: contain;
+    position: relative;
+    float: left;
+}
+.com_name{
+    position: relative;
+    float:right;
+}
+
+.rainbow {
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #3131f8, #005b97 , #00b800, #db1b7b, #f33646);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 4s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+.red{
+    color: rgba(200, 0, 0, 1.0);
+}
+.blue{
+    color: rgba(0, 0, 200, 1.0);
+}
+
+.scoreblock-bg{
+    position: absolute;
+    width:60px;
+    height:50px;
+    top:6px;
+    left:6px;
+    background: rgba(0, 0, 0, .75);
+    border-radius: 20px;
+}
+.scoreblock-fg{
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background: rgb(218, 218, 218);
+    font-size: 30px;
+    text-align: center;
+    line-height: 55px;
+}
+.timer-img{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.timer-clock{
+    position: absolute;
+    color: #ffffff;
+    text-shadow: 4px 4px 3px #000000;
+}
+.p1score{
+    position: absolute;
+    top:323px;
+    left:186px;
+}
+
+.p2score{
+    position: absolute;
+    top:323px;
+    left:1669px;
+}
+.p3score{
+    position: absolute;
+    top:718px;
+    left:186px;
+}
+.p4score{
+    position: absolute;
+    top:718px;
+    left:1669px;
+}
+.t1score{
+    position: absolute;
+    top:323px;
+    left:881px;
+}
+.t2score{
+    position: absolute;
+    top:404px;
+    left:971px;
+}

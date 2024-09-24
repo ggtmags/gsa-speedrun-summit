@@ -1,0 +1,151 @@
+body{
+    font-family: tetris;
+}
+.omnibar-container{
+    position: absolute;
+    left:0px;
+    top:784px;
+    width:1920px;
+    height:236px;
+    background-image: url(../img/omnibar/Omibar_OM-BG.png);
+}
+.clock-container{
+    position: absolute;
+    left:30px;
+    top:30px;
+    width:256px;
+    height:184px;
+    background-image: url(../img/omnibar/Omibar_OM-TIMER.png);
+    background-repeat: no-repeat;
+}
+.current-run-container{
+    position: absolute;
+    left:290px;
+    top:30px;
+    width:607px;
+    height:184px;
+    background-image: url(../img/omnibar/Omibar_OM-current-run.png);
+    background-repeat: no-repeat;
+
+}
+.livebox{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:70px;
+    height:33px;
+    background-image: url(../img/omnibar/Omibar_OM-LIVE.png);
+    background-repeat: no-repeat;
+}
+.next-run-container{
+    position: absolute;
+    left:914px;
+    top:30px;
+    width:607px;
+    height:184px;
+    background-image: url(../img/omnibar/Omibar_OM-next-run.png);
+    background-repeat: no-repeat;
+}
+.nextbox{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:75px;
+    height:33px;
+    background-image: url(../img/omnibar/Omibar_OM-NEXT.png);
+    background-repeat: no-repeat;
+
+}
+.second-box-container{
+    position: absolute;
+    left:1245px;
+    top:30px;
+    width:607px;
+    height:184px;
+    background-image: url(../img/omnibar/Omibar_OM-next-run.png);
+    background-repeat: no-repeat;
+}
+.logobox{
+    height:178px;
+    top:30px;
+    width:150px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.left-logo{
+    left:1580px;
+    background-image: url(../img/logos/gsa-400.jpg);
+}
+.right-logo{
+    left:1740px;
+    background-image: url(../img/logos/ss-logo-dk.png);
+}
+.current-run-fg{
+    background-image: url(../img/thumbs/simpsons.png);
+    background-repeat: no-repeat;
+    width:316px;
+    height:178px;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+.timerbox{
+    font-size: 40px;
+    width: 246px;
+    height: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.current-run-bg{
+    position: absolute;
+    left: 315px;
+    top: 6px;
+    width: 292px;
+    height: 178px;
+    font-size: 22px;
+    color:#ffffff;
+}
+.run-estimate{
+    text-align: center;
+    font-size: 22px;
+    line-height: 45px;
+    padding-top: 10px;
+}
+.run-category{
+    text-align: center;
+    width: 100%;
+    height: 65px;
+    font-size: 22px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.run-platform{
+    text-align: center;
+    width: 100%;
+    height: 55px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.run-separator{
+    width:80%;
+    height:2px;
+    background-color: #ffffff;
+    margin-left: 10%;
+}
+.next-run-fg{
+    background-image: url(../img/thumbs/spongebob.png);
+    background-repeat: no-repeat;
+    width:316px;
+    height:178px;
+    position: absolute;
+    left:0px;
+    top:0px;
+}
