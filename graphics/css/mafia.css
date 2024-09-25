@@ -1,0 +1,50 @@
+.mafia-bar{
+    position: absolute;
+    left:0px;
+    top:758px;
+    background-image: url(../img/mafia/mafia_Players\ Bg.png);
+    width:1920px;
+    height:290px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top-row{
+    position: absolute;
+    left:589px;
+    top:0px;
+}
+.bot-row{
+    position: absolute;
+    left: 342px;
+    top: 141px;
+}
+.mafia-player{
+    width: 103px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+}
+.mafia-image-holder{
+    align-items: center;
+    width:103px;
+    height:109px;
+}
+.mafia-image{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 103px;
+    height: 109px;
+
+}
+.mafia-role{
+    background-color: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    width: fit-content;
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}

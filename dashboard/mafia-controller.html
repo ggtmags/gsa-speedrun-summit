@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/gip.css" crossorigin="anonymous">
+
+    <!-- Compressed JavaScript -->
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-3">
+                <label>Player 1
+                    <select id="p1_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p1_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 2
+                    <select id="p2_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p2_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 3
+                    <select id="p3_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p3_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 4
+                    <select id="p4_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p4_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 5
+                    <select id="p5_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p5_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 6
+                    <select id="p6_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p6_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 7
+                    <select id="p7_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p7_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 8
+                    <select id="p8_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p8_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 9
+                    <select id="p9_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p9_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 10
+                    <select id="p10_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p10_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 11
+                    <select id="p11_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p11_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 12
+                    <select id="p12_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p12_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 13
+                    <select id="p13_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p13_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 14
+                    <select id="p14_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p14_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 15
+                    <select id="p15_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p15_role">
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Player 16
+                    <select id="p16_img">
+                        <option value="Mafia_cheese">Cheese</option>
+                        <option value="Mafia_couriway">couriway</option>
+                        <option value="Mafia_ezscape">ezscape</option>
+                        <option value="Mafia_feinberg">feinberg</option>
+                        <option value="Mafia_greensuigi">greensuigi</option>
+                        <option value="Mafia_lilkirbs">lilkirbs</option>
+                        <option value="Mafia_majinphil">majinphil</option>
+                        <option value="Mafia_shift">shift</option>
+                        <option value="Mafia_simpleflips">simpleflips</option>
+                        <option value="Mafia_trihex">trihex</option>
+                        <option value="Mafia_weegee">weegee</option>
+                        <option value="Mafia_zfg">zfg</option>
+                        <option value="Mafia_Guest1">Guest1</option>
+                        <option value="Mafia_Guest2">Guest2</option>
+                        <option value="Mafia_Guest3">Guest3</option>
+                        <option value="Mafia_Guest4">Guest4</option>
+                    </select>
+                </label>
+            </div>
+            <div class="cell small-3">
+                <label>Role
+                    <input class="input-group-field" type="text" placeholder="Role ie: Town" id="p16_role">
+                </label>
+            </div>
+            <div class="cell small-12">
+                <label>Looks Good?
+                <div class="expanded button-group no-gaps">
+                    <a class="success button" id="updatebutton">Update</a>
+                </div>
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="js/mafia-dash.js"></script>
+
+</html>

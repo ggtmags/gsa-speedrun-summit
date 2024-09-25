@@ -1,0 +1,49 @@
+.bottom-bar{
+    position: absolute;
+    left:30px;
+    top:890px;
+}
+
+.current-run-fg{
+    
+    background-image: url(../img/mafia/mafia_Sidepannel.png);
+    width:279px;
+    height:157px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.next-run-fg{
+    position: absolute;
+    top:0px;
+    left:1581px;
+    background-image: url(../img/mafia/mafia_Sidepannel.png);
+    width:279px;
+    height:157px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.runimg{
+    position: absolute;
+    width:279px;
+    height:157px;
+    border-radius: 20px;
+}
+.livebox{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:70px;
+    height:33px;
+    background-image: url(../img/omnibar/Omibar_OM-LIVE.png);
+    background-repeat: no-repeat;
+}
+.nextbox{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:75px;
+    height:33px;
+    background-image: url(../img/omnibar/Omibar_OM-NEXT.png);
+    background-repeat: no-repeat;
+
+}

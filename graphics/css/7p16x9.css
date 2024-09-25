@@ -1,0 +1,66 @@
+.player1{
+    position: absolute;
+    top: 519px;
+    left: 10px;
+}
+.player2{
+    position: absolute;
+    top: 519px;
+    left: 1290px;
+}
+.player3{
+    position: absolute;
+    top: 736px;
+    left: 10px;
+}
+.player4{
+    position: absolute;
+    top: 736px;
+    left: 394px;
+}
+.player5{
+    position: absolute;
+    top: 736px;
+    left: 778px;
+}
+.player6{
+    position: absolute;
+    top: 736px;
+    left: 1161px;
+}
+.player7{
+    position: absolute;
+    top: 736px;
+    left: 1545px;
+}
+.lower_third{
+    color: #ffffff;
+    font-size: 75px;
+    position: absolute;
+    left: 0px;
+    width: 1920px;
+    top: 45px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.com_info_box_2p_4x3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+    width: 775px;
+    height: 194px;
+    position: absolute;
+    top: 0px;
+    left: 553px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    flex-direction: row;
+}
+.com_name_holder_1p_16x9{
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-right:10px;
+}
