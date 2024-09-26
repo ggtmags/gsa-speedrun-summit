@@ -1,0 +1,67 @@
+.joe-bar{
+    position: absolute;
+    left: 0px;
+    top: 890px;
+    background-image: url(../img/joestacking/Joe_background.png);
+    width: 1920px;
+    height: 157;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.teamholder{
+    position: absolute;
+    top: 0px;
+    padding: 20px;
+    width: 283px;
+    height: 116px;
+}
+.joe-team{
+    background-color: #000000;
+    width: 268px;
+    height: 35px;
+    color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+}
+.joe-player{
+    width: 94px;
+    height: 75px;
+    text-align: center;
+}
+.joe-image-holder{
+    width:82px;
+    height:75px;
+}
+
+
+.team1-holder{
+    left:342px;
+}
+.team2-holder{
+    left:652px;
+}
+.team3-holder{
+    left:961px;
+}
+.team4-holder{
+    left:1270px;
+}
+.joe-player{
+    float:left;
+}
+.joe-team-name{
+    line-height:35px;
+    font-size:18px;
+    padding-left:5px;
+    width:152px;
+    float: left;
+}
+.joe-team-score{
+    line-height:35px;
+    font-size:18px;
+    padding-right:5px;
+    text-align: right;
+    width:106px;
+    float: left;
+}

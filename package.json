@@ -40,7 +40,7 @@
         {
           "name": "Scoring",
           "title": "Scoreboard",
-          "width": 4,
+          "width": 6,
           "file": "mmscore.html",
           "headerColor": "#9f9bbd",
           "workspace": "Live"
@@ -128,6 +128,11 @@
         },
         {
           "file": "joestacking.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "gameshow.html",
           "width": 1920,
           "height": 1080
         },

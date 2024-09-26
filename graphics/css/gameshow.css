@@ -1,0 +1,96 @@
+.bottom-bar{
+    position: absolute;
+    left:30px;
+    top:890px;
+    color:#ffffff
+}
+.round-bar{
+    position: absolute;
+    left: 0px;
+    top: 890px;
+    background-image: url(../img/gameshow/Gameshow-main.png);
+    width: 1920px;
+    height: 157;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#ffffff;
+}
+.bluebox{
+    
+    background-image: url(../img/gameshow/Gameshow-blue.png);
+    width:279px;
+    height:157px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.redbox{
+    position: absolute;
+    top:0px;
+    left:1599px;
+    background-image: url(../img/gameshow/Gameshow-red.png);
+    width:279px;
+    height:157px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+.totalscore{
+    width: 262px;
+    height: 90px;
+    text-align: center;
+    font-size: 90px;
+    line-height: 90px;
+    padding-top: 15px;
+}
+.teamname{
+    width: 262px;
+    height: 50px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 50px;
+    padding-top: 0px;
+}
+.round-score-holder{
+    position: absolute;
+    width: 280px;
+    height: 157px;
+    top:0px;
+}
+
+.blue-score-holder{
+    left: 342px;
+}
+.red-score-holder{
+    left: 1298px;
+}
+.round-score{
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 45px;
+}
+.round-label{
+    width: 280px;
+    Height:30px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+}
+.round-description-holder{
+    position: absolute;
+    left: 622px;
+    top: 0px;
+    height: 157px;
+    width: 676px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.round-name{
+    font-size: 55px;
+}
+.round-subname{
+    font-size: 35px;
+}
