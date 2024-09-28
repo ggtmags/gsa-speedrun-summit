@@ -114,7 +114,7 @@ body{
     border-radius: 10px;
 }
 .mic {
-    background-image: url(../img/icons/coms_dark.png);
+    background-image: url(../img/icons/coms_light.png);
     background-repeat: no-repeat;
     width: 38px;
     height: 34px;
@@ -124,7 +124,7 @@ body{
     float: right;
 }
 .gamepad {
-    background-image: url(../img/icons/player_dark.png);
+    background-image: url(../img/icons/player_light.png);
     background-repeat: no-repeat;
     width: 60px;
     height: 34px;
