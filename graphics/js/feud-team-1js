@@ -12,8 +12,8 @@ team2name_rep.on('change', (newValue, oldValue) => {
 });
 
 p1score_rep.on('change', (newValue, oldValue) => {
-    p1score.innerText = newValue;
+    team1score.innerText = newValue;
 });
 p2score_rep.on('change', (newValue, oldValue) => {
-    p2score.innerText = newValue;
+    team2score.innerText = newValue;
 });
