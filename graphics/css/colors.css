@@ -44,6 +44,15 @@ body{
 .sc_4p_16x9{
     background:url(../img/mortise/16-9-4P.png);
 }
+.sc_4p_4x3{
+    background:url(../img/mortise/4-3-4P.png);
+}
+.sc_4p_4x3_1game{
+    background:url(../img/mortise/4-3-4P-1screen.png);
+}
+.sc_4p_16x9_1game{
+    background:url(../img/mortise/16-9-4P-1screen.png);
+}
 .sc_7p_16x9{
     background:url(../img/mortise/5v2-minecraft.png);
 }
@@ -151,6 +160,7 @@ body{
     color: transparent;
     animation: rainbow_animation 4s ease-in-out infinite;
     background-size: 400% 100%;
+    -webkit-text-stroke: 0.75px #eaeaea;
 }
 
 @keyframes rainbow_animation {

@@ -107,7 +107,27 @@
           "height": 1080
         },
         {
-          "file": "4_player_16x9.html",
+          "file": "4_player_4x3-scores.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "4_player_4x3-1game.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "4_player_16x9-3v1.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "4_player_16x9-names.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "4_player_16x9-scores.html",
           "width": 1920,
           "height": 1080
         },
