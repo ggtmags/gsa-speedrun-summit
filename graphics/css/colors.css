@@ -154,7 +154,7 @@ body{
     letter-spacing: 5px;
 }
 .rainbow_text_animated {
-    background: linear-gradient(to right, #ed1405, #fa4c3f , #ed1405, #fa4c3f, #ed1405);
+    background: linear-gradient(to right, #9005ed, #7f00d4 , #5c0099, #7f00d4, #5c0099);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

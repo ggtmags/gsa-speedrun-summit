@@ -149,3 +149,11 @@ body{
     left:0px;
     top:0px;
 }
+.current-run-fg img{
+    width:100%;
+    height:100%;
+}
+.next-run-fg img{
+    width:100%;
+    height:100%;
+}
