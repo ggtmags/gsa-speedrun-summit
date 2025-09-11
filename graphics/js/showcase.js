@@ -6,7 +6,8 @@ const toptitle_rep = nodecg.Replicant('toptitle', 'gsa-speedrun-summit');
 
 current_img_rep.on('change', (newValue, oldValue) => {
         current_img.src = "img/thumbs/"+newValue+".png" ;
-        timer_bg.src = "img/timerbg/"+newValue+".png" ;
+        //timer_bg.src = "img/timerbg/"+newValue+".png" ;
+        timer_bg.src = "img/timerbg/timerbg.png" ;
         console.log(current_img_rep.value);
 });
 next_img_rep.on('change', (newValue, oldValue) => {
