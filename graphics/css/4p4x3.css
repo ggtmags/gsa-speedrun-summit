@@ -47,9 +47,18 @@
     flex-direction: row;
 }
 .team1box{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    width: 267px;
+    height: 37px;
     position: absolute;
     left: 10px;
     top: 343px;
+    margin-left: 0px;
+    padding-bottom: 5px;
+    flex-direction: column;
 }
 
 .team2box{
