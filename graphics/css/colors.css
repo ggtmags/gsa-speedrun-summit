@@ -32,6 +32,9 @@ body{
 .sc_1p_16x9{
     background:url(../img/mortise/16-9-1P.png);
 }
+.sc_1p_16x9_foot{
+    background:url(../img/mortise/16-9-1P-foot.png);
+}
 .sc_1p_4x3{
     background:url(../img/mortise/4-3-1P.png);
 }
@@ -43,6 +46,9 @@ body{
 }
 .sc_2p_16x9_bingo{
     background:url(../img/mortise/16-9-2P-Bingo.png);
+}
+.sc_2p_16x9{
+    background:url(../img/mortise/16-9-2P-alt.png);
 }
 .sc_4p_16x9{
     background:url(../img/mortise/16-9-4P.png);
@@ -142,6 +148,17 @@ body{
     height: 34px;
     top: 2px;
     left: 10px;
+    background-size: contain;
+    position: relative;
+    float: left;
+}
+.gamepad2 {
+    background-image: url(../img/icons/player_light.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 34px;
+    top: 2px;
+    left: -10px;
     background-size: contain;
     position: relative;
     float: left;

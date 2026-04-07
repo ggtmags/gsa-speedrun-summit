@@ -3,13 +3,37 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
-    justify-content: flex-start;
-    width: 300px;
-    height: 764px;
+    justify-content: flex-end;
+    width: 509px;
+    height: 369px;
     position: absolute;
     top: 0px;
     left: 0px;
-    margin-left: 20px;
+    margin-right: 20px;
+}
+.player_info_box_1p_16x9_foot{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width: 509px;
+    height: 499px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-right: 20px;
+}
+.player_info_box_1p_4x3{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width: 851px;
+    height: 369px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-right: 20px;
 }
 .com_info_box_1p_16x9{
     display: flex;
